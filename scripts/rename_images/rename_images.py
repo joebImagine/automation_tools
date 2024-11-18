@@ -5,7 +5,7 @@ from datetime import datetime
 from pathlib import Path
 
 # Define supported image extensions
-IMAGE_EXTENSIONS = {'.jpg', '.jpeg', '.png', '.gif', '.bmp', '.tiff', '.tif'}
+IMAGE_EXTENSIONS = {'.jpg', '.jpeg', '.png', '.gif', '.bmp', '.tiff', '.tif', '.webp'}
 
 def is_image(file_path):
     return file_path.suffix.lower() in IMAGE_EXTENSIONS
