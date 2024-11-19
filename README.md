@@ -20,10 +20,6 @@
 ## Features
 
 - **Image Renaming:** Bulk rename image files based on customizable patterns.
-- **Data Processing:** Clean and manipulate data efficiently.
-- **Deployment Scripts:** Automate application deployment processes.
-- **Testing Tools:** Streamline the execution of test suites.
-- **Utilities:** Reusable helper functions for various tasks.
 
 ## Installation
 
