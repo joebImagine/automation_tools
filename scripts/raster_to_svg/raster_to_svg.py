@@ -255,22 +255,6 @@ def create_svg(contours, hierarchy, sources, svg_path, image_size, scale=1.0):
                 id=f"mask_{mask_count}",
             ))
 
-            if source == 'original':
-                dwg.add(dwg.path(
-                    d=path_data,
-                    stroke='none',
-                    fill_rule='evenodd',
-                    style=f"fill:#fff;",
-                    id=f"mask_{mask_count}"
-                ))
-            else:
-                dwg.add(dwg.path(
-                    d=path_data,
-                    stroke='none',
-                    fill_rule='evenodd',
-                    id=f"mask_{mask_count}"
-                ))
-
             if mask_count % 10 == 0:
                 print(f"Added {mask_count} masks to SVG...")
 
